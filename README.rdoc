@@ -1,0 +1,36 @@
+I have written 4 classes Restaurant , Menu, MenuItem and Order each in file restaurant.rb , menu.rb, menu_item.rb and order.rb  . It takes looks for menu.csv and restaurants.csv in the same directory as the file containing code to get te neccessary data to find the ebstaurant for an order.
+
+Tu run from console : 
+ruby order.rb (which will call Order.excute)
+It will take 3 inputs
+	1. Name of restaurant csv 
+	2. Name of menu csv
+	(by default it take restaurants.csv and menu.csv) and 
+	3. list of items(comma separated)
+It will output an array with restaurant id and minimum cost and in case of no restaurant is found it returns [-1,-1].
+
+To Find best restaurant , 
+call Order.find_best_restaurant items_list (in order.rb)
+	where item_list is an array of items ordered
+	for ex: ["tofu_log","fancy_european_water"]
+examples : 
+Order.find_best_restaurant ["fancy_european_water","extreme_fajita","jalapeno_poppers"] 
+Order.find_best_restaurant ["burger", "tofu_log"]
+Order.find_best_restaurant ["tofu_log","fancy_european_water"]
+
+
+
+I have also few test cases in order.rb, to run these comment line Order.execute and uncomment test cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
