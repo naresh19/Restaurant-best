@@ -1,3 +1,5 @@
+Given a restauran csv(rest_id,delivery charges) and menu csv (rest_id,item_name, price) and a list of item ,it gives the restaurant id that fulfills that order with minimum cost
+
 It contains 4 classes Restaurant , Menu, MenuItem and Order each in file restaurant.rb , menu.rb, menu_item.rb and order.rb  . It takes looks for menu.csv and restaurants.csv in the same directory as the file containing code to get te neccessary data to find the ebstaurant for an order.
 
 Tu run from console : 
